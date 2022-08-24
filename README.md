@@ -33,6 +33,18 @@ Tools
   - [PhoneInfoga](https://github.com/PSR009/Threat-Intelligence-and-Ethical-Hacking/blob/main/osint.md#phoneinfoga-for-phone-numbers) for Phone Numbers
   - [Sherlock](https://github.com/PSR009/Threat-Intelligence-and-Ethical-Hacking/blob/main/osint.md#sherlock) for social media hunts
   - [Google Search Dork Requests](https://github.com/PSR009/Threat-Intelligence-and-Ethical-Hacking/blob/main/osint.md#google-dorks)
+- Penetration Testing
+  - Kali Linux
+  - nmap
+  - Metasploit
+  - Wireshark
+  - John the Ripper
+  - Hashcat
+  - Hydra
+  - Burp Suite
+  - Zed Attack Proxy
+  - sqlmap
+  - aircrack-ng
 - [Hacking WiFi Passwords](https://github.com/PSR009/Threat-Intelligence-and-Ethical-Hacking/blob/main/network_attacks.md#hacking-wifi-passwords)
 
 ## Setup
