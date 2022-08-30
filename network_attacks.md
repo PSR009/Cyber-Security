@@ -48,6 +48,56 @@ http.proxy on
 ```
 - Turn off proxy after any changes to the script and back on for the changes to take effect
 
+## [Nmap](https://nmap.org/)
+- Network scanner - Scan networks to find live hosts / targets / services
+
+1. Check for live systems (ping)
+    ```
+    $ nmap -sP <IP/24>
+    ```
+    - Ping 254 possible hosts at once
+
+2. Check for open ports
+    ```
+    $ nmap -sT -p 80,443 <IP/24>
+    ```
+    - -sT: TCP connection 3-way handshake (SYN, SYN ACK, ACK) for full-open scan
+
+3. Scan beyond IDS/Firewall
+    ```
+    $ nmap -sS -p
+    ```
+    - -sS: stealthy / SYN scan / half-open scan
+
+4. Perform banner grabbing and OS fingerprinting
+    ```
+    $ nmap -O <IP>
+    ```
+    - OS detections
+    
+    ```
+    $ nmap -A <IP>
+    ```
+    - OS detections
+    - Version detections
+    - Script scanning
+    - Traceroute 	
+
+5. Scan for vulnerabilities
+6. Draw network diagrams
+7. Prepare proxies
+
+### Others
+- Decoy
+    ```
+    $ nmap -sS -D <decoy-IP> 
+    ```
+- Scripts
+    ```
+    $ nmap –script vuln <IP>
+    ```
+- Switches
+
 
 ## [BeEF](https://beefproject.com/)
 - The Browser Exploitation Framework used for penetration testing web browsers
