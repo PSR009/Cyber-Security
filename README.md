@@ -10,42 +10,102 @@ A beginner's guide to various tools and concepts
 - Anyone can list every device on the network and see the URLs visited
 - One can even redirect the traffic to the attacker's page and steal credentials
 
-Tools
-- [Bettercap](https://github.com/PSR009/Threat-Intelligence-and-Ethical-Hacking/blob/main/network_attacks.md#bettercap)
-- [BeEF](https://github.com/PSR009/Threat-Intelligence-and-Ethical-Hacking/blob/main/network_attacks.md#beef)
+### Common Attack Services and Protocols
+
+|Name|
+|:-:|
+|RDP|
+|VNC|
+|SSH|
+|SMNP|
+|SMB|
+|Telnet|
+|RPC|
+|SIP Server|
+|NFS|
+|Nginx|
+|Building Control|
+
+### Tools
+
 - Vulnerability Scanners
-  - Nikto – simple and general vuln scanner
-  - Skipfish – build a website map and find hidden URLs and files
-  - Wapiti – find all vulnerabilities and exploit them from the terminal
-  - OWASP-ZAP – all exploitations using a GUI
-  - Xsser – super good super specialised XSS
-- Network Engineering
-  - [SolarPUTTY](http://bit.ly/usesolarputty)
-  - [WAN Killer](http://bit.ly/WANkiller)
-  - [IP Address Scanner](http://bit.ly/ipscansw)
-  - [Network Device Scanner](http://bit.ly/netdevicescanner)
-  - [Wifi Heat Map](http://bit.ly/wifiheatmapsw)
-  - [Wifi Analyzer](http://bit.ly/wifianalyzersw)
-  - [SolarWinds NPM](http://bit.ly/netperfmon)
+
+|Name|Description|
+|:-:|:-:|
+|Nikto|Simple and general vulnerability scanner|
+|Skipfish|Build a website map and find hidden URLs and files|
+|Wapiti|Find all vulnerabilities and exploit them from the terminal|
+|OWASP-ZAP|All exploitations using a GUI|
+|Xsser|Super specialised XSS|
+
+- MITM Attacks
+  - [Bettercap](https://github.com/PSR009/Threat-Intelligence-and-Ethical-Hacking/blob/main/network_attacks.md#bettercap)
+
 - OSINT
-  - [Twint](https://github.com/PSR009/Threat-Intelligence-and-Ethical-Hacking/blob/main/osint.md#twint-for-twitter) for Twitter
-  - [Osintgram](https://github.com/PSR009/Threat-Intelligence-and-Ethical-Hacking/blob/main/osint.md#osintgram-for-instagram) for Instagram
-  - [PhoneInfoga](https://github.com/PSR009/Threat-Intelligence-and-Ethical-Hacking/blob/main/osint.md#phoneinfoga-for-phone-numbers) for Phone Numbers
-  - [Sherlock](https://github.com/PSR009/Threat-Intelligence-and-Ethical-Hacking/blob/main/osint.md#sherlock) for social media hunts
-  - [Google Search Dork Requests](https://github.com/PSR009/Threat-Intelligence-and-Ethical-Hacking/blob/main/osint.md#google-dorks)
+
+|Name|Description|
+|:-:|:-:|
+|[Twint](https://github.com/PSR009/Threat-Intelligence-and-Ethical-Hacking/blob/main/osint.md#twint-for-twitter)|Twitter|
+|[Osintgram](https://github.com/PSR009/Threat-Intelligence-and-Ethical-Hacking/blob/main/osint.md#osintgram-for-instagram)|Instagram|
+|[PhoneInfoga](https://github.com/PSR009/Threat-Intelligence-and-Ethical-Hacking/blob/main/osint.md#phoneinfoga-for-phone-numbers)|Phone Numbers|
+|[Sherlock](https://github.com/PSR009/Threat-Intelligence-and-Ethical-Hacking/blob/main/osint.md#sherlock)|Social Media Hunts|
+|[Google Search Dork Requests](https://github.com/PSR009/Threat-Intelligence-and-Ethical-Hacking/blob/main/osint.md#google-for-passive-recon-fingerprinting)|Passive Recon|
+
 - Penetration Testing
-  - Kali Linux
-  - nmap
-  - Metasploit
-  - Wireshark
-  - John the Ripper
-  - Hashcat
-  - Hydra
-  - Burp Suite
-  - Zed Attack Proxy
-  - sqlmap
-  - aircrack-ng
+
+|Name|
+|:-:|
+|Kali Linux|
+|nmap|
+|Metasploit|
+|Wireshark|
+|John the Ripper|
+|Hashcat|
+|Hydra|
+|Burp Suite|
+|Zed Attack Proxy|
+|sqlmap|
+|aircrack-ng|
+|[BeEF](https://github.com/PSR009/Threat-Intelligence-and-Ethical-Hacking/blob/main/network_attacks.md#beef)|
+
+- Search Engines
+
+|Name|Description|
+|:-:|:-:|
+|Shodan|Search for devices connected to the internet|
+|Wigle|Database of wireless networks with statistics|
+|Grep App|Search across a half million git repos|
+|Binary Edge|Scans the internet for Threat Intelligence|
+|ONYPHE|Collects CTI data|
+|GreyNoise|Search for devices connected to the internet|
+|Censys|Assessing attack surface for internet connected devices|
+|Hunter|Search for email addresses belonging to a website|
+|Fofa|Search for various Threat Intelligence|
+|ZoomEye|GAther information about targets|
+|LeakIX|Search publicly indexed information|
+|IntelligenceX|Search Tor, I2P, data leaks, domains and emails|
+|Netlas|Search and monitor internet connected assets|
+|URL Scan|Free service to scan and analyse websites|
+|PublicWWW|Marketing and affiliate marketing research|
+|FullHunt|Search and discovery attack surfaces|
+|CRT sh|Search for certs that have been logged by CT|
+|Vulners|Search vulnerabilities in a large database|
+|Pulsedive|Search for Threat Intelligence|
+|Packet Storm Security|Browse latest vulnerabilities and exploits|
+|GrayHatWarefare|Search public S3 buckets|
+
 - [Hacking WiFi Passwords](https://github.com/PSR009/Threat-Intelligence-and-Ethical-Hacking/blob/main/network_attacks.md#hacking-wifi-passwords)
+- Network Engineering
+
+|Name|
+|:-:|
+|[SolarPUTTY](http://bit.ly/usesolarputty)|
+|[WAN Killer](http://bit.ly/WANkiller)|
+|[IP Address Scanner](http://bit.ly/ipscansw)|
+|[Network Device Scanner](http://bit.ly/netdevicescanner)|
+|[Wifi Heat Map](http://bit.ly/wifiheatmapsw)|
+|[Wifi Analyzer](http://bit.ly/wifianalyzersw)|
+|[SolarWinds NPM](http://bit.ly/netperfmon)|
 
 ## Setup
 
