@@ -130,3 +130,21 @@ A beginner's guide to various tools and concepts
     - Make sure internet connection is turned off when accessing these downloaded files
   - `Whonix` has a gateway and workstation for access via Tor
   - `Kali Linux` and `Ubuntu` require manual setting up of Tor
+
+## Others
+
+### Domain Controller
+- Command to fetch the domainrole
+  ```
+  > wmic computersystem get domainrole
+  ```
+  
+  |Value|DomainRole|
+  |:-:|:-:|
+  |0x0|Standalone Workstation|
+  |0x1|Member Workstation|
+  |0x2|Standalone Server|
+  |0x3|Member Server|
+  |0x4|Backup Domain Controller|
+  |0x5|Primary Domain Controller|
+  
