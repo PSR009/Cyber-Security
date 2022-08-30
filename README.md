@@ -32,6 +32,7 @@ A beginner's guide to various tools and concepts
 
 |Name|Description|
 |:-:|:-:|
+|[Nmap](https://github.com/PSR009/Threat-Intelligence-and-Ethical-Hacking/blob/main/network_attacks.md#nmap)|Scan networks to find live hosts / targets / services|
 |Nikto|Simple and general vulnerability scanner|
 |Skipfish|Build a website map and find hidden URLs and files|
 |Wapiti|Find all vulnerabilities and exploit them from the terminal|
