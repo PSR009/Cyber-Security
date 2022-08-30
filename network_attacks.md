@@ -72,10 +72,6 @@ http.proxy on
 4. Perform banner grabbing and OS fingerprinting
     ```
     $ nmap -O <IP>
-    ```
-    - OS detections
-    
-    ```
     $ nmap -A <IP>
     ```
     - OS detections
