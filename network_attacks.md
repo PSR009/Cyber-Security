@@ -154,23 +154,123 @@ http.proxy on
 - nmap
 - Ettercap
 
-Network Scanning
-```
-sudo nmap -sn <subnet>
-```
-ARP Poisoning (Changing the destination MAC address on Router & Victim to put yourself in between them)
-```
-sudo ettercap -T -S -i wlan0 -M arp:remote /<Router-IP>// /<Victim-IP>// 
-```
-- `-T` : Text-only (not GUI)
-- `-S` : not to use SSL
-- `-i` : Interface
-- `-M` : MITM
+### Procedure
 
-Sniffing with Wireshark
-- Filters
-    - `ip.addr == <Victim-IP> && http`
-    - `ip.addr == <Victim-IP> && telnet`
+1. Network Scanning
+    ```
+    sudo nmap -sn <subnet>
+    ```
+
+2. ARP Poisoning (Changing the destination MAC address on Router & Victim to put yourself in between them)
+    ```
+    sudo ettercap -T -S -i wlan0 -M arp:remote /<Router-IP>// /<Victim-IP>// 
+    ```
+    - `-T` : Text-only (not GUI)
+    - `-S` : not to use SSL
+    - `-i` : Interface
+    - `-M` : MITM
+
+3. Sniffing with Wireshark
+    - Filters
+        - `ip.addr == <Victim-IP> && http`
+        - `ip.addr == <Victim-IP> && telnet`
+
+## Vulnerability Scanners
+
+### [Nikto](https://cirt.net/Nikto2)
+- Commands
+    ```
+    $ nikto -host <URL>
+    $ nikto -host <URL> -dbcheck
+    ```
+- No way to pass cookies
+- Less range of attacks
+
+### [Skipfish](https://www.kali.org/tools/skipfish/)
+- Active Web Application Security Reconnaissance Tool
+- Commands
+    ```
+    $ skipfish -o skip <URL>
+    $ skipfish -o skip <URL> -C <cookie-name>=<cookie-value>
+    ```
+    - Get cookies from `Inspect` &uarr; `Application`
+    - Example
+        `PHPSESSID=<cookie-value>`
+        `security=low`
+- No clearview of how to exploit the website
+
+### [Wapiti](https://wapiti-scanner.github.io/)
+- Commands
+    ```
+    $ wapiti --list-modules
+    $ wapiti -u <URL> -c cookie.json -x <URL>/logout.php --flush-attacks 
+    $ wapiti -u <URL> -c cookie.json -x <URL>/logout.php --flush-attacks -m blindsql -S insane
+    ```
+- Flags
+    - `-x` : Exclude logout page from ending the session
+    - `--flush-attacks` : flush the  old attacks to execute them again
+    - `-m` : Module to use
+    - `-S` : Aggressive Level
+
+### [OWASP-ZAP](https://www.zaproxy.org/)
+- OWASP Zed Attack Proxy
+- Procedure
+    - Input cookies via GUI in `Scripts` &rarr; `<Attack-URL>` &rarr; `Authentication`
+    - Launch `Spider` &rarr; `Start Scan` to enumerate every sub-URL
+    - Click on `Active Scan` &rarr; `Attack`
+- [Visual Step by Step Guide to Damn Vulnerable Web Application (DVWA) Authentication](https://augment1security.com/authentication/dvwa-authentication/)
+- [Setting up ZAP to Test Damn Vulnerable Web App (DVWA)](https://www.zaproxy.org/faq/details/setting-up-zap-to-test-dvwa/)
+
+### [Xsser](https://xsser.03c8.net/)
+- Automatic framework to detect, exploit and report XSS vulnerabilities in web-based apps
+
+### [Nuclei](https://nuclei.projectdiscovery.io/)
+- [GitHub](https://github.com/projectdiscovery/nuclei)
+- [Community Templates](https://github.com/projectdiscovery/nuclei-templates)
+- Scanning for a variety of protocols, including TCP, DNS, HTTP, SSL, File, Whois, Websocket, Headless etc.
+- Scan Commands
+    ```
+    $ nuclei -u <URL> -t nuclei-templates/technologies/
+    $ nuclei -u <URLs>.txt -t nuclei-templates/technologies/
+    $ nuclei -u <URLs>.txt -t nuclei-templates/misconfiguration/
+    ```
+- Disadvantages
+    - Doesn't cover typical vulnerabilities like SQL Injection in depth
+    - Authentication setup is not very intuitive
+
+### [Trivy](https://github.com/aquasecurity/trivy)
+- Targets
+    - Container Image
+    - Filesystem
+    - Git repository (remote)
+    - Kubernetes cluster or resource
+- Scanners
+    - OS packages and software dependencies in use (SBOM)
+    - Known vulnerabilities (CVEs)
+    - IaC misconfigurations
+    - Sensitive information and secrets
+- Scan Commands
+    ```
+    $ trivy image python:3.4-alpine
+    $ trivy image -severity HIGH,CRITICAL python:3.4-alpine
+    $ trivy fs <directory>
+    $ trivy repo <URL>
+    ```
+- Disadvantages
+    - No capabilities to add specific scans
+    - Reports are a bit hard to read
+
+### [Vuls](https://vuls.io/docs/en/tutorial-docker.html)
+- Agent-less vulnerability scanner for Linux, FreeBSD, Container, WordPress, Programming language libraries, Network devices 
+- [GitHub](https://github.com/future-architect/vuls)
+- Configuration file
+- Advantages
+    - Up to date vulnerabilities database over an actual connection
+    - Many reporting options
+    - Scan both locally and remotely
+- Disadvantages
+    - Tedious setup with docker
+    - Configuring the report is not easy
 
 ## Hacking WiFi passwords
 
@@ -226,3 +326,5 @@ YouTube
 - [hacking every device on wifi / ethernet networks 1 #wifi #hack #MITM](https://www.youtube.com/watch?v=2J3idGxCbuc)
 - [hacking every device on wifi / ethernet networks 2 #wifi #hack #MITM #javascript](https://www.youtube.com/watch?v=ExxxhioK1Hk)
 - [3 wifi attacks and speed hash cracking with cloud GPUs](https://www.youtube.com/watch?v=MrWAJEQJZbk)
+- [5 best vulnerability scanners to exploit websites - ranked + tested](https://www.youtube.com/watch?v=y6W1kc1jOkI) - Nikto, Skipfish, Wapiti, OWASP-ZAP, Xsser
+- [3 Best Advanced Scanners to find exploits automatically](https://www.youtube.com/watch?v=EM_iJnWphfo&t=44s) - Nuclei, Trivy, Vuls
