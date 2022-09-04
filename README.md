@@ -28,19 +28,37 @@ A beginner's guide to various tools and concepts
 
 ### Tools
 
-- Vulnerability Scanners
+- Vulnerability Scanners / Penetration Testing
 
 |Name|Description|
 |:-:|:-:|
 |[Nmap](https://github.com/PSR009/Threat-Intelligence-and-Ethical-Hacking/blob/main/network_attacks.md#nmap)|Scan networks to find live hosts / targets / services|
-|Nikto|Simple and general vulnerability scanner|
-|Skipfish|Build a website map and find hidden URLs and files|
-|Wapiti|Find all vulnerabilities and exploit them from the terminal|
-|OWASP-ZAP|All exploitations using a GUI|
-|Xsser|Super specialised XSS|
+|[Nikto](https://github.com/PSR009/Threat-Intelligence-and-Ethical-Hacking/edit/main/network_attacks.md#nikto)|Simple and general vulnerability scanner|
+|[Skipfish](https://github.com/PSR009/Threat-Intelligence-and-Ethical-Hacking/edit/main/network_attacks.md#skipfish)|Build a website map and find hidden URLs and files|
+|[Wapiti](https://github.com/PSR009/Threat-Intelligence-and-Ethical-Hacking/edit/main/network_attacks.md#wapiti)|Find all vulnerabilities and exploit them from the terminal|
+|[OWASP-ZAP](https://github.com/PSR009/Threat-Intelligence-and-Ethical-Hacking/edit/main/network_attacks.md#owasp-zap)|All exploitations using a GUI|
+|[Xsser](https://github.com/PSR009/Threat-Intelligence-and-Ethical-Hacking/edit/main/network_attacks.md#xsser)|Super specialised XSS|
+|[Nuclei](https://github.com/PSR009/Threat-Intelligence-and-Ethical-Hacking/edit/main/network_attacks.md#nuclei)|Scan website, network, DNS|
+|[Trivy](https://github.com/PSR009/Threat-Intelligence-and-Ethical-Hacking/edit/main/network_attacks.md#trivy)|Scan your machine and any server|
+|[Vuls](https://github.com/PSR009/Threat-Intelligence-and-Ethical-Hacking/edit/main/network_attacks.md#vuls)|Scan anything for the most recent vulnerabilities|
+
+|Name|
+|:-:|
+|Kali Linux|
+|Metasploit|
+|[Wireshark](https://github.com/PSR009/Threat-Intelligence-and-Ethical-Hacking/edit/main/network_attacks.md#wireshark)|
+|John the Ripper|
+|Hashcat|
+|Hydra|
+|Burp Suite|
+|Zed Attack Proxy|
+|sqlmap|
+|aircrack-ng|
+|[BeEF](https://github.com/PSR009/Threat-Intelligence-and-Ethical-Hacking/blob/main/network_attacks.md#beef)|
 
 - MITM Attacks
   - [Bettercap](https://github.com/PSR009/Threat-Intelligence-and-Ethical-Hacking/blob/main/network_attacks.md#bettercap)
+  - [ARP Poisoning & Sniffing](https://github.com/PSR009/Threat-Intelligence-and-Ethical-Hacking/edit/main/network_attacks.md#mitm-attack--sniffing-network-traffic)
 
 - OSINT
 
@@ -51,23 +69,6 @@ A beginner's guide to various tools and concepts
 |[PhoneInfoga](https://github.com/PSR009/Threat-Intelligence-and-Ethical-Hacking/blob/main/osint.md#phoneinfoga-for-phone-numbers)|Phone Numbers|
 |[Sherlock](https://github.com/PSR009/Threat-Intelligence-and-Ethical-Hacking/blob/main/osint.md#sherlock)|Social Media Hunts|
 |[Google Search Dork Requests](https://github.com/PSR009/Threat-Intelligence-and-Ethical-Hacking/blob/main/osint.md#google-for-passive-recon-fingerprinting)|Passive Recon|
-
-- Penetration Testing
-
-|Name|
-|:-:|
-|Kali Linux|
-|nmap|
-|Metasploit|
-|Wireshark|
-|John the Ripper|
-|Hashcat|
-|Hydra|
-|Burp Suite|
-|Zed Attack Proxy|
-|sqlmap|
-|aircrack-ng|
-|[BeEF](https://github.com/PSR009/Threat-Intelligence-and-Ethical-Hacking/blob/main/network_attacks.md#beef)|
 
 - Search Engines
 
@@ -96,6 +97,7 @@ A beginner's guide to various tools and concepts
 |GrayHatWarefare|Search public S3 buckets|
 
 - [Hacking WiFi Passwords](https://github.com/PSR009/Threat-Intelligence-and-Ethical-Hacking/blob/main/network_attacks.md#hacking-wifi-passwords)
+
 - Network Engineering
 
 |Name|
@@ -148,3 +150,26 @@ A beginner's guide to various tools and concepts
   |0x4|Backup Domain Controller|
   |0x5|Primary Domain Controller|
   
+### References
+
+|YouTube Channels|
+|:-:|
+|[David Bombal](https://www.youtube.com/c/DavidBombal)|
+|[HackerSploit](https://www.youtube.com/c/HackerSploit)|
+|[John Hammond](https://www.youtube.com/c/JohnHammond010)|
+|[Network Chuck](https://www.youtube.com/c/NetworkChuck)|
+|[Nour's tech talk](https://www.youtube.com/channel/UCVEJtttyiIG-LeTwwn_ML4w)|
+|[LiveOverflow](https://www.youtube.com/c/LiveOverflow)|
+|[stacksmashing](https://www.youtube.com/c/stacksmashing)|
+|[The Cyber Mentor](https://www.youtube.com/c/TheCyberMentor)|
+
+|Reverse Engineering / Malware Analysis|
+|:-:|
+|[Dr Josh Stroschein](https://www.youtube.com/c/DrJoshStroschein)|
+|[DuMp-GuY TrIcKsTeR](https://www.youtube.com/c/DuMpGuYTrIcKsTeR)|
+|[HEXORCIST](https://www.youtube.com/c/HEXORCIST)|
+|[OALabs](https://www.youtube.com/c/OALabs)|
+|[Malfind Labs](https://www.youtube.com/c/MalfindLabs)|
+|[MalwareAnalysisForHedgehogs](https://www.youtube.com/c/MalwareAnalysisForHedgehogs)|
+|[Neil Fox](https://www.youtube.com/c/0xf0x)|
+|[The PC Security Channel](https://www.youtube.com/c/thepcsecuritychannel)|
