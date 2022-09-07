@@ -133,6 +133,26 @@ $ python3 sherlock --timeout 1 <username>
   $ theHarvester -d <domain> -b netcraft
   ```
 
+## Emails / Usernames / Accounts
+
+### Discovering Emails
+- [Hunter.io](https://hunter.io/)
+- [Phonebook.cz](https://phonebook.cz/)
+- [VoilaNorbert](https://www.voilanorbert.com/)
+- [Clearbit Connect](https://connect.clearbit.com/)
+
+### Verifing Emails
+- [Email Hippo](https://tools.emailhippo.com/)
+- [Email Checker](https://email-checker.net/)
+- [EPIEOS](https://epieos.com/)
+
+### Usernames and Accounts
+- [Namech_k](https://namechk.com/)
+- [WhatsMyName](https://whatsmyname.app/)
+- [NameCheckup](https://namecheckup.com/)
+
 #### References
 YouTube
 - [Hacker Skills // OSINT (Information Gathering)](https://www.youtube.com/watch?v=SvO_FDa8AIs&list=PLIhvC56v63IJ9SYBtdDsNnORfTNFCXR8_) 7 Videos
+- [Discovering Email Addresses (OSINT)](https://www.youtube.com/watch?v=1bzo-j669WM)
+- [Hunting Usernames and Accounts (OSINT)](https://www.youtube.com/watch?v=t1nw1uLF9L4)
