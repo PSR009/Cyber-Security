@@ -6,9 +6,14 @@ A beginner's guide to various cybersecurity concepts and tools
 
 ## Contents
 
-### [Threat Intelligence and Ethical Hacking](https://github.com/PSR009/Threat-Intelligence-and-Ethical-Hacking/blob/main/README.md)
-### [Malware Analysis and Reverse Engineering](https://github.com/PSR009/Threat-Intelligence-and-Ethical-Hacking/blob/main/malware-analysis-and-reverse-engineering.md)
 ### [Digital Forensics and Incident Response](https://github.com/PSR009/Threat-Intelligence-and-Ethical-Hacking/blob/main/dfir.md)
+### [Malware Analysis and Reverse Engineering](https://github.com/PSR009/Threat-Intelligence-and-Ethical-Hacking/blob/main/malware-analysis-and-reverse-engineering.md)
+### [Network-based Tools and Techniques](https://github.com/PSR009/Threat-Intelligence-and-Ethical-Hacking/blob/main/network_attacks.md)
+### [Threat Hunting and Cyber Threat Intelligence](https://github.com/PSR009/Threat-Intelligence-and-Ethical-Hacking/blob/main/Hunting-CTI-OSINT/Hunting-CTI-OSINT.md)
+  - [OSINT](https://github.com/PSR009/Threat-Intelligence-and-Ethical-Hacking/blob/main/osint.md)
+  - [VirusTotal](https://github.com/PSR009/Threat-Intelligence-and-Ethical-Hacking/blob/main/Hunting-CTI-OSINT/VirusTotal.md)
+  - [Yara](https://github.com/PSR009/Threat-Intelligence-and-Ethical-Hacking/blob/main/Hunting-CTI-OSINT/yara.md)
+### [Tools / Plugins](https://github.com/PSR009/Threat-Intelligence-and-Ethical-Hacking/blob/main/Tools-Plugins.md)
 
 ## Network-based
 
