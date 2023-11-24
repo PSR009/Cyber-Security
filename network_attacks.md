@@ -1,5 +1,97 @@
 # Network-based Tools and Techniques
 
+- Public networks like hotels, libraries, airports are the most vulnerable
+- Anyone can list every device on the network and see the URLs visited
+- One can even redirect the traffic to the attacker's page and steal credentials
+
+### Common Attack Services and Protocols
+
+|Name|
+|:-:|
+|RDP|
+|VNC|
+|SSH|
+|SMNP|
+|SMB|
+|Telnet|
+|RPC|
+|SIP Server|
+|NFS|
+|Nginx|
+|Building Control|
+
+### Tools
+
+- Vulnerability Scanners / Penetration Testing
+
+|Name|Description|
+|:-:|:-:|
+|[Nmap](https://github.com/PSR009/Threat-Intelligence-and-Ethical-Hacking/blob/main/network_attacks.md#nmap)|Scan networks to find live hosts / targets / services|
+|[Nikto](https://github.com/PSR009/Threat-Intelligence-and-Ethical-Hacking/edit/main/network_attacks.md#nikto)|Simple and general vulnerability scanner|
+|[Skipfish](https://github.com/PSR009/Threat-Intelligence-and-Ethical-Hacking/edit/main/network_attacks.md#skipfish)|Build a website map and find hidden URLs and files|
+|[Wapiti](https://github.com/PSR009/Threat-Intelligence-and-Ethical-Hacking/edit/main/network_attacks.md#wapiti)|Find all vulnerabilities and exploit them from the terminal|
+|[OWASP-ZAP](https://github.com/PSR009/Threat-Intelligence-and-Ethical-Hacking/edit/main/network_attacks.md#owasp-zap)|All exploitations using a GUI|
+|[Xsser](https://github.com/PSR009/Threat-Intelligence-and-Ethical-Hacking/edit/main/network_attacks.md#xsser)|Super specialised XSS|
+|[Nuclei](https://github.com/PSR009/Threat-Intelligence-and-Ethical-Hacking/edit/main/network_attacks.md#nuclei)|Scan website, network, DNS|
+|[Trivy](https://github.com/PSR009/Threat-Intelligence-and-Ethical-Hacking/edit/main/network_attacks.md#trivy)|Scan your machine and any server|
+|[Vuls](https://github.com/PSR009/Threat-Intelligence-and-Ethical-Hacking/edit/main/network_attacks.md#vuls)|Scan anything for the most recent vulnerabilities|
+
+|Name|
+|:-:|
+|Kali Linux|
+|Metasploit|
+|[Wireshark](https://github.com/PSR009/Threat-Intelligence-and-Ethical-Hacking/edit/main/network_attacks.md#wireshark)|
+|John the Ripper|
+|Hashcat|
+|Hydra|
+|Burp Suite|
+|Zed Attack Proxy|
+|sqlmap|
+|aircrack-ng|
+|[BeEF](https://github.com/PSR009/Threat-Intelligence-and-Ethical-Hacking/blob/main/network_attacks.md#beef)|
+
+- Network Engineering
+
+|Name|
+|:-:|
+|[SolarPUTTY](http://bit.ly/usesolarputty)|
+|[WAN Killer](http://bit.ly/WANkiller)|
+|[IP Address Scanner](http://bit.ly/ipscansw)|
+|[Network Device Scanner](http://bit.ly/netdevicescanner)|
+|[Wifi Heat Map](http://bit.ly/wifiheatmapsw)|
+|[Wifi Analyzer](http://bit.ly/wifianalyzersw)|
+|[SolarWinds NPM](http://bit.ly/netperfmon)|
+
+- MITM Attacks
+  - [Bettercap](https://github.com/PSR009/Threat-Intelligence-and-Ethical-Hacking/blob/main/network_attacks.md#bettercap)
+  - [ARP Poisoning & Sniffing](https://github.com/PSR009/Threat-Intelligence-and-Ethical-Hacking/edit/main/network_attacks.md#mitm-attack--sniffing-network-traffic)
+
+- Search Engines
+
+|Name|Description|
+|:-:|:-:|
+|Shodan|Search for devices connected to the internet|
+|Wigle|Database of wireless networks with statistics|
+|Grep App|Search across a half million git repos|
+|Binary Edge|Scans the internet for Threat Intelligence|
+|ONYPHE|Collects CTI data|
+|GreyNoise|Search for devices connected to the internet|
+|Censys|Assessing attack surface for internet connected devices|
+|Hunter|Search for email addresses belonging to a website|
+|Fofa|Search for various Threat Intelligence|
+|ZoomEye|GAther information about targets|
+|LeakIX|Search publicly indexed information|
+|IntelligenceX|Search Tor, I2P, data leaks, domains and emails|
+|Netlas|Search and monitor internet connected assets|
+|URL Scan|Free service to scan and analyse websites|
+|PublicWWW|Marketing and affiliate marketing research|
+|FullHunt|Search and discovery attack surfaces|
+|CRT sh|Search for certs that have been logged by CT|
+|Vulners|Search vulnerabilities in a large database|
+|Pulsedive|Search for Threat Intelligence|
+|Packet Storm Security|Browse latest vulnerabilities and exploits|
+|GrayHatWarefare|Search public S3 buckets|
+
 ## [Bettercap](https://www.bettercap.org/)
 
 - Implements MITM attacks
