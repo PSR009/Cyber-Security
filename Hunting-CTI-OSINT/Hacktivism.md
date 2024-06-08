@@ -1,6 +1,7 @@
 # Telegram Hacktivist Channels
 
-This list specifically tracks hacktivist groups that target India
+- This list specifically tracks hacktivist groups that target India
+- Total groups = 118
 
 |   Group Name (Aliases)  |  Channel Link  |
 |:-:|:-:|
@@ -24,14 +25,17 @@ This list specifically tracks hacktivist groups that target India
 |   Athena |    https://t.me/s/athenahak/ |
 |   Bangladesh Civilian Force | https://t.me/s/bcfOfficialTelegramChannel/ |
 |   Bangladesh dark net hacker boys |   https://t.me/s/bddarknethackers<br/> https://t.me/s/BD_DARK_NET/ |
-|   BhinnekaSec1337 |   https://t.me/s/BhinnekaSec/ |
+|   BhinnekaSec1337 |   https://t.me/s/BhinnekaSec/ <br/> https://t.me/s/BhinnekaService |
 |   Blackhun73r sylhet gang |   https://t.me/s/blackhun73/ |
 |   Bnzet | https://t.me/s/Doxxxerr/ |
 |   ClaratZ |   https://t.me/s/meClaratZ/ |
 |   Cyber Error System |    https://t.me/s/cybererrorsystem/ |
 |   Cyber Fattah Team | https://t.me/s/fattahh_ir/ |
 |   Cyber Operations Alliance | https://t.me/s/Coa_Agency/ |
+|   CYBER TEAM INDONESIA  |   https://t.me/s/leaksdatabasecyberteam/ <br/> https://t.me/s/khususleakdata  |
+|   CYBER ULTRAS GARUDA  |   https://t.me/s/CyberUltrasGaruda/  |
 |   DARK CYBER TEAM |   https://t.me/s/D4Rk_CyB3r/ |
+|   DATA LEAKER |  https://t.me/s/DATA_LEAKER/  |
 |   DragonForce Malaysia |  https://t.me/s/dragonforceio/ |
 |   EAGLE CYBER CREW |  https://t.me/s/eaglecyberwashere/ |
 |   ETHERSEC TEAM CYBER |   https://t.me/s/ETHERSECTEAMCYBER/ |
@@ -39,16 +43,21 @@ This list specifically tracks hacktivist groups that target India
 |   Eagle Error System |    https://t.me/s/eagle_error/ |
 |   Esteem Restoration Eagle |  https://t.me/s/esteemrestorationeagle/ |
 |   Fanatix |   https://t.me/s/FanatixLeaks/ |
+|   GANOSEC TEAM  |   https://t.me/s/ganosecteam/ |
 |   GARUDA CYBER OPERATION |    https://t.me/s/Garuda_Cyber_Operation/ |
 |   GARUDA FROM CYBER | https://t.me/s/garudafromcyber/ |
 |   GB ANON 17 |    https://t.me/s/revolusigbanon17/ |
 |   GLORIAMIST |    https://t.me/s/GLORIAMISTS/ |
 |   Garnesia Team | https://t.me/s/garnesiateam/ |
 |   Garuda Security |   https://t.me/s/garudasec4/ |
+|   GHOST [6669] TEAM |   https://t.me/s/Ghost6669teaam/ |
+|   GrxSensei Team |    https://t.me/s/GrxSenseiTeam/ |
+|   Hacktivist Indonesia |   https://t.me/s/HacktivistIndonesia/ |
 |   HACKTIVIST VANGUARD |   https://t.me/s/Hacktivist_Vanguard/ |
 |   HELANG MERAH GROUP |    https://t.me/s/HelangMerahGroup/ |
 |   Hacktivist kalteng |    https://t.me/s/kaltenghack/ |
 |   HerbDark Club | https://t.me/s/herbdark/ |
+|   HUNTER BLACK HAT  |   https://t.me/s/hunterblackhat/  |
 |   INFINITE INSIGHT.ID |   https://t.me/s/fakesec666/ |
 |   ISLAMIC CYBER TEAM |    https://t.me/s/islamiccyberteam/ |
 |   Irfannotsepuh | https://t.me/s/irfannotsepuhh/ |
@@ -60,10 +69,12 @@ This list specifically tracks hacktivist groups that target India
 |   Krypton |   https://t.me/s/KryptonProofs/ |
 |   LASHKAREMAHDI | https://t.me/s/whoisAlixan/ |
 |   Legion Leaker | https://t.me/s/LegioNLeakeR/ |
-|   LulzSec Indonesia | https://t.me/s/lulzsecurityagency/ |
 |   Lulzsec Hunter |    https://t.me/s/LulzsecHunter/ |
+|   LulzSec Indonesia | https://t.me/s/lulzsecurityagency/ |
+|   LulzSec Muslims  |  https://t.me/s/lulzsecmuslim/  |
 |   Malaysia Hacktivist |   https://t.me/MalaysiaHacktivist/ |
-|   Moroccan Black Cyber Army <br/> Cyber Jihad Organization | https://t.me/s/Moroccan_black_CyberArmy/ |
+|   MICROSOFTWARE_443  |   https://t.me/microsoftware_44/  |
+|   Moroccan Black Cyber Army <br/> Cyber Jihad Organization | https://t.me/s/Moroccan_black_CyberArmy/ <br/> https://t.me/Moroccan1_black_CyberArmy|
 |   Mysterious Team Bangladesh |    https://t.me/s/MysteriousTeam0/ |
 |   NIXON CYBER TEAM |  https://t.me/s/NIXON_CYBER_TEAM/ |
 |   NTB CYBER TEAM <br/> GARUDA TERSAKITI | https://t.me/s/NtbCyberTeam/ |
@@ -95,7 +106,7 @@ This list specifically tracks hacktivist groups that target India
 |   TEAM NWH SECURITY | https://t.me/s/teamnwhsecurity/ |
 |   TEAM R70 |  https://t.me/s/team_R70/ |
 |   TEAM UCC OPERATIONS |   https://t.me/s/ucc_team/ |
-|   THE ANON 69 |   https://t.me/s/THEANON69/ |
+|   THE ANON 69 |   https://t.me/s/THEANON69/ <br/> https://t.me/s/THE_ANON_69/ <br/> https://t.me/s/TEAMANON69_N |
 |   THE ANONYMOUS BD |  https://t.me/s/T_GRAY_HACKER/ |
 |   THE CAMP 22 |   https://t.me/s/thecamp22/ |
 |   THE CYBER ANONYMOUS |   https://t.me/s/THE_CYBER_ANONYMOUS/ |
@@ -104,9 +115,11 @@ This list specifically tracks hacktivist groups that target India
 |   TcodeX-TesterProff-Api |    https://t.me/s/TcodeXTesterProffApi/ |
 |   Team 1722 | https://t.me/s/Team1722/ |
 |   Team 1916 | https://t.me/s/xteam1916x/ |
-|   Team Ahadun-Ahad 2.0 |  https://t.me/s/joinarmyofImamMahdi/ |
-|   Team insane Pk Official |   https://t.me/s/TEAM_INSANE_PAKISTAN2/ |
+|   Team Ahadun-Ahad 2.0 |  https://t.me/s/joinarmyofImamMahdi/ <br/> https://t.me/s/armyofmahdiincyberworld |
+|   Team insane Pk Official |   https://t.me/s/TEAM_INSANE_PAKISTAN2/ <br/> https://t.me/Team_insane_Pakistan|
 |   TengkorakCyberCrew |    https://t.me/s/tengkorakcybercrewz/ |
 |   Tron Power Proof |  https://t.me/s/Tronc2powerproof/ |
+|   White Garuda Team |   https://t.me/s/GarudaSecID/ |
 |   Z-BL4CX-H4T |   https://t.me/s/Z_BL4CK_H4T/ |
 |   Zenimous Crew | https://t.me/s/Zenimous/ |
+|   ZERO WARE UNION TEAM  |  https://t.me/s/ZeroWareUnionTeam/  |
