@@ -38,3 +38,15 @@
 |2|SideCopy|[None]|2019|
 
 ### Russia
+
+## Publications
+
+### LibrarianGhouls / RareWerewolf / Rezet
+
+| Date | Title | Reference | 
+|:-:|:-:|:-:|
+| 2023-Nov-29 | Rare Wolf preys on sensitive data using fake 1C:Enterprise invoices as a lure | [BI.ZONE](https://bi.zone/eng/expertise/blog/rare-wolf-okhotitsya-za-privatnymi-dannymi-s-pomoshchyu-falshivykh-nakladnykh-1s-predpriyatie/) |
+| 2024-Jul-08 | Targeted malicious email campaign for information gathering | [Kaspersky](https://www.kaspersky.ru/blog/malicious-mailout-scr-attachment/37823/) |
+| 2024-Sep-05 | Librarian Ghouls engage in industrial espionage | [Kaspersky](https://www.kaspersky.ru/blog/librarian-ghouls-cad-formats/38199/) |
+| 2025-Jan-31 | Rezet Reboot: Cyberespionage Group Attacks Russian Industrial Enterprises Again | [FACCT](https://habr.com/ru/companies/F6/news/878320/) |
+| 2025-Jun-09 | Sleep with one eye open: how Librarian Ghouls steal data by night | [Kaspersky](https://securelist.com/librarian-ghouls-apt-wakes-up-computers-to-steal-data-and-mine-crypto/116536/) |
