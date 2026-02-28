@@ -7,6 +7,10 @@
 
 ### China
 
+| Date | Title | Reference | 
+|:-:|:-:|:-:|
+| 2026-Jan-30 | Chinese State-Sponsored APT Groups Conducted Sustained Cyber Espionage Campaigns Against ASEAN and Asian Government Networks Throughout 2023–2025 | [James Henning](https://voodootomato.medium.com/chinese-state-sponsored-apt-groups-conducted-sustained-cyber-espionage-campaigns-against-asean-and-7b3049e7480f) |
+
 ### India
 
 |No|APT Group|Alias|First Seen|
